@@ -3,7 +3,7 @@
 ### ✅ Requirements
 
 -   The **queue workers** must be running.
--   It's **recommended** to use **[Reverb](https://reverb.dev/docs/laravel/installation)** as the WebSocket service.
+-   It's **recommended** to use **[Reverb](https://reverb.laravel.com/)** as the WebSocket service.
 -   Don’t forget to run the storage link:
 
 ```bash
