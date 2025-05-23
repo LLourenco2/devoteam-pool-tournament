@@ -1,5 +1,7 @@
 ✅ É necessário ter a queue dos workers a funcionar
+
 ✅ Preferencialmente utilizar o Reverb como serviço de websockets
+
 ✅ Não esquecer de fazer o link da storage
 
 O reverb ja adiciona as settings ao .env mas é necessário adicionar
