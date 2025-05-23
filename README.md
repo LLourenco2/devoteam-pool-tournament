@@ -12,7 +12,7 @@ php artisan storage:link
 
 ### In your .env add
 
-VITE_API_URL=http://devoteam-pool-tournament.test/api
+VITE_API_URL= (with the app domain/api)
 
 AVATAR_API_URL="https://avatar.iran.liara.run"
 
