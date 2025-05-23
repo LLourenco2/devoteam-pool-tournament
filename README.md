@@ -1,16 +1,24 @@
-✅ É necessário ter a queue dos workers a funcionar
+## ⚙️ Setup Notes
 
-✅ Preferencialmente utilizar o Reverb como serviço de websockets
+### ✅ Requirements
 
-✅ Não esquecer de fazer o link da storage
+-   The **queue workers** must be running.
+-   It's **recommended** to use **[Reverb](https://reverb.dev/docs/laravel/installation)** as the WebSocket service.
+-   Don’t forget to run the storage link:
 
-O reverb ja adiciona as settings ao .env mas é necessário adicionar
+```bash
+php artisan storage:link
+```
+
+### In your .env add
 
 VITE_API_URL=http://devoteam-pool-tournament.test/api
 
 AVATAR_API_URL="https://avatar.iran.liara.run"
 
-Caso o reverb nao adicione no .env as settings sao as seguintes
+### Reverb will usually add the required settings to your .env, but double-check that the following entries exist:
+
+If Reverb does not auto-fill .env, add the following manually:
 
 BROADCAST_DRIVER=reverb
 
